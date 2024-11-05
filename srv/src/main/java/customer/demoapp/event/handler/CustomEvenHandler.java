@@ -39,6 +39,7 @@ public class CustomEvenHandler implements EventHandler {
         ctx.setCompleted();
     }
 
+    //http://localhost:8087/odata/v4/customapi/generateToken(username='admin',password='passadmin')
     @On
     public void onGenerateToken(GenerateTokenContext ctx) {
         String token = null;
